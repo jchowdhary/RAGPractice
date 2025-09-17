@@ -1,0 +1,77 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+.env
+venv/
+env/
+
+# Environment variables and secrets
+.env*
+*.key
+*.pem
+secrets/
+
+# Data directories
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB and vector databases
+chroma/
+data/chroma/
+*.chroma
+
+# Large files and datasets
+*.pdf
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bin
+*.dat
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Model files and weights
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+models/
+checkpoints/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
